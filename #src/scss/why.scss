@@ -1,0 +1,33 @@
+.why {
+}
+.why__main-title {
+   margin: 85px 0px 0px 0px;
+   display: flex;
+}
+.why__border {
+   margin: 14px 90px 0px 0px;
+   height: 1px;
+   width: 276px;
+   background-color: rgba(23, 23, 31, 0.5);
+   @media (max-width: $md3+px) {
+      margin: 14px 40px 0px 0px;
+      width: 200px;
+   }
+}
+.why__title {
+}
+.title {
+}
+.why__content {
+   margin: 80px 10px 100px 10px;
+   text-align: center;
+   img {
+      max-width: 100%;
+   }
+   @media (max-width: $md4+px) {
+      margin: 30px 10px 30px 10px;
+   }
+   @media (max-width: $md3+px) {
+      margin: 30px 10px 30px 10px;
+   }
+}

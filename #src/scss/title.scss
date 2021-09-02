@@ -1,0 +1,113 @@
+.comments__company {
+}
+.comments__page {
+   margin: 50px 0px 0px 0px;
+   display: flex;
+   @media (max-width: $md2+px) {
+      flex-direction: column;
+      align-items: center;
+   }
+   @media (max-width: $md3+px) {
+      margin: 20px 0px 0px 0px;
+   }
+   @media (min-width: 1345px) {
+      justify-content: center;
+   }
+}
+.comments__title-content {
+   margin: 20px 0px 0px 0px;
+   display: flex;
+}
+.comments__border {
+   margin: 14px 90px 0px 0px;
+   height: 1px;
+   width: 276px;
+   background-color: rgba(23, 23, 31, 0.5);
+   @media (max-width: $md3+px) {
+      margin: 14px 40px 0px 0px;
+   }
+}
+.title {
+   font-size: 25px;
+   line-height: 35 / 25 * 100%;
+   letter-spacing: 0.04em;
+   color: #000000;
+}
+
+.comments__users {
+   max-width: 640px;
+   margin: 0px 86px 0px 0px;
+}
+.comment__user {
+   display: flex;
+   @media (max-width: $md4+px) {
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 0px 0px 50px;
+      width: 100%;
+   }
+}
+.comment__user-photo {
+   flex: 0 0 130px;
+   height: 130px;
+   position: relative;
+   border-radius: 50%;
+   @media (max-width: $md4+px) {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+   }
+}
+.comment__content {
+}
+.comment__content-title {
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 22 / 16 * 100%;
+   letter-spacing: 0.04em;
+   color: #000000;
+   margin: 0px 0px 11px 0px;
+   @media (max-width: 320+px) {
+      margin: 10px 0px 10px 0px;
+   }
+}
+.comment__content-text {
+   flex: 1 1 auto;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 19 / 14 * 100%;
+   letter-spacing: 0.04em;
+
+   color: #000000;
+}
+.comments__block-map {
+}
+.comments__subtitle {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 28 / 20 * 100%;
+   /* identical to box height */
+
+   letter-spacing: 0.04em;
+
+   color: #000000;
+   margin: 0px 0px 17px 0px;
+   @media (max-width: $md5+px) {
+      margin: 10px 0px 10px 0px;
+   }
+}
+.comments__map {
+   width: 600px;
+   @media (max-width: $md5+px) {
+      width: 450px;
+   }
+   @media (max-width: $md4+px) {
+      width: 270px;
+   }
+   @media (max-width: $md2+px) {
+      margin: 0px 0px 20px 0px;
+   }
+   @media (min-width: $md3+px) {
+      margin: 0px 20px 20px 0px;
+   }
+}

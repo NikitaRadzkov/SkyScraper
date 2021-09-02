@@ -1,0 +1,40 @@
+.projects {
+}
+.projects__main-title {
+   display: flex;
+}
+.projects__border {
+   margin: 14px 90px 0px 0px;
+   height: 1px;
+   width: 276px;
+   background-color: rgba(23, 23, 31, 0.5);
+   @media (max-width: $md3+px) {
+      margin: 14px 40px 0px 0px;
+      width: 200px;
+   }
+}
+.title {
+}
+.projects__content {
+}
+.projects__slider {
+   min-width: 0;
+}
+.slider__slide {
+   text-align: center;
+}
+.projects__image {
+   width: auto;
+}
+.projects__subtitle {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22 / 16 * 100%;
+   letter-spacing: 0.04em;
+   color: #000000;
+}
+
+.slider {
+   display: flex;
+   min-width: 0;
+}
